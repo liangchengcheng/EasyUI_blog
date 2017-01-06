@@ -64,7 +64,7 @@ public class PageUtil {
         return pageCode.toString();
     }
 
-    //LucenceËÑË÷²©¿Í½á¹ûµÄ·ÖÒ³
+    //Lucence
     public static String getUpAndDownPageCode(
             Integer page,
             Integer totalNum,
