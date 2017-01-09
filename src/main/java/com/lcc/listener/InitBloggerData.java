@@ -1,5 +1,11 @@
 package com.lcc.listener;
 
+import java.util.List;
+
+import javax.servlet.ServletContext;
+import javax.servlet.ServletContextEvent;
+import javax.servlet.ServletContextListener;
+
 import com.lcc.entity.Blog;
 import com.lcc.entity.BlogType;
 import com.lcc.entity.Blogger;
@@ -11,18 +17,15 @@ import com.lcc.service.LinkService;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
-
-import javax.servlet.ServletContext;
-import javax.servlet.ServletContextEvent;
-import javax.servlet.ServletContextListener;
-import java.util.List;
+import org.springframework.stereotype.Component;
 
 /**
  * Created by lcc on 2017/1/7.
  */
+@Component
 public class InitBloggerData implements ServletContextListener,ApplicationContextAware {
-    private static ApplicationContext applicationContext;
 
+    private static ApplicationContext applicationContext;
 
     public void contextInitialized(ServletContextEvent servletContextEvent) {
         ServletContext application  = servletContextEvent.getServletContext();
@@ -30,9 +33,11 @@ public class InitBloggerData implements ServletContextListener,ApplicationContex
         BloggerService bloggerService = (BloggerService) applicationContext.getBean("bloggerService");;
 
         Blogger blogger = bloggerService.getBloggerData();
-        blogger.setPassword(null);
-        application.setAttribute("blogger",blogger);
-
+        if (blogger != null){
+            blogger.setPassword(null);
+            application.setAttribute("blogger",blogger);
+        }
+        
         LinkService linkService = (LinkService) applicationContext.getBean("linkService");
         List<Link> linkList = linkService.getLinkData();
         application.setAttribute("linkList",linkList);
