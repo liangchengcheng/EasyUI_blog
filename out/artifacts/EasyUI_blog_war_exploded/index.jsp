@@ -136,13 +136,13 @@
                             <span class="summary">摘要: 这是用来测试的静态数据，为了多搞一点数据，于是我开始喋喋不休的说一些废话，包括我很帅之类的，虽然我一直强调自己要低调，但不知为何，自己的容颜非得和内心背道而驰....</span>
                             <span class="img">
 
-							  		<a href="#"><img src="${pageContext.request.contextPath}/static/userImages/dog.jpg"
+							  		<a href="#"><img src="${pageContext.request.contextPath}/static/userImages/dog.png"
                                                      title="dog" alt="dog.jpg" width="823" height="489"
                                                      style="width: 823px; height: 489px;"></a>
-							  		<a href="#"><img src="${pageContext.request.contextPath}/static/userImages/dog.jpg"
+							  		<a href="#"><img src="${pageContext.request.contextPath}/static/userImages/dog.png"
                                                      title="dog" alt="dog.jpg" width="823" height="489"
                                                      style="width: 823px; height: 489px;"></a>
-							  		<a href="#"><img src="${pageContext.request.contextPath}/static/userImages/dog.jpg"
+							  		<a href="#"><img src="${pageContext.request.contextPath}/static/userImages/dog.png"
                                                      title="dog" alt="dog.jpg" width="823" height="489"
                                                      style="width: 823px; height: 489px;"></a>
 							  		&nbsp;&nbsp;
@@ -165,13 +165,13 @@
                             <span class="summary">摘要: 这是用来测试的静态数据，为了多搞一点数据，于是我开始喋喋不休的说一些废话，包括我很帅之类的，虽然我一直强调自己要低调，但不知为何，自己的容颜非得和内心背道而驰....</span>
                             <span class="img">
 
-							  		<a href="#"><img src="${pageContext.request.contextPath}/static/userImages/dog.jpg"
+							  		<a href="#"><img src="${pageContext.request.contextPath}/static/userImages/dog.png"
                                                      title="dog.jpg" alt="dog.jpg" width="823" height="489"
                                                      style="width: 823px; height: 489px;"></a>
-							  		<a href="#"><img src="${pageContext.request.contextPath}/static/userImages/dog.jpg"
+							  		<a href="#"><img src="${pageContext.request.contextPath}/static/userImages/dog.png"
                                                      title="dog.jpg" alt="dog.jpg" width="823" height="489"
                                                      style="width: 823px; height: 489px;"></a>
-							  		<a href="#"><img src="${pageContext.request.contextPath}/static/userImages/dog.jpg"
+							  		<a href="#"><img src="${pageContext.request.contextPath}/static/userImages/dog.png"
                                                      title="dog.jpg" alt="dog.jpg" width="823" height="489"
                                                      style="width: 823px; height: 489px;"></a>
 							  		&nbsp;&nbsp;
@@ -194,13 +194,13 @@
                             <span class="summary">摘要: 这是用来测试的静态数据，为了多搞一点数据，于是我开始喋喋不休的说一些废话，包括我很帅之类的，虽然我一直强调自己要低调，但不知为何，自己的容颜非得和内心背道而驰....</span>
                             <span class="img">
 
-							  		<a href="#"><img src="${pageContext.request.contextPath}/static/userImages/dog.jpg"
+							  		<a href="#"><img src="${pageContext.request.contextPath}/static/userImages/dog.png"
                                                      title="dog.jpg" alt="dog.jpg" width="823" height="489"
                                                      style="width: 823px; height: 489px;"></a>
-							  		<a href="#"><img src="${pageContext.request.contextPath}/static/userImages/dog.jpg"
+							  		<a href="#"><img src="${pageContext.request.contextPath}/static/userImages/dog.png"
                                                      title="dog.jpg" alt="dog.jpg" width="823" height="489"
                                                      style="width: 823px; height: 489px;"></a>
-							  		<a href="#"><img src="${pageContext.request.contextPath}/static/userImages/dog.jpg"
+							  		<a href="#"><img src="${pageContext.request.contextPath}/static/userImages/dog.png"
                                                      title="dog.jpg" alt="dog.jpg" width="823" height="489"
                                                      style="width: 823px; height: 489px;"></a>
 							  		&nbsp;&nbsp;
